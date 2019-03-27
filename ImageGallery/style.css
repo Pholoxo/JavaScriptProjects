@@ -1,0 +1,25 @@
+:root {
+  --mainWhite: #f2fdff;
+  --mainBlue: #3e92cc;
+}
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background: var(--mainWhite);
+}
+.img-container {
+
+  background: url("./Img/cloud1.jpg") center/cover;
+  border: 0.5rem solid var(--mainBlue);
+  border-radius: 0.5rem;
+}
+
+:root {
+  --mainWhite: #f2fdff;
+  --mainBlue: #3e92cc;
+}
+
+.max-height {
+  min-height: 100vh;
+}
