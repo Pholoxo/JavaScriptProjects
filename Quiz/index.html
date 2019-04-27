@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <h1>This is my test</h1>
+  <form id="quiz" name="quiz">
+    <p>What is the capital of the US</p>
+    <input id="textbox" type="text" name="question1">
+
+    <p>What is the capital of the Conneticut</p>
+    <input type="radio" id="mc" name="question2" value="Hartford">Hartford<br>
+    <input type="radio" id="mc" name="question2" value="Heartford">Heartford<br>
+
+    <p>What is the capital of New York</p>
+    <input type="radio" id="mc" name="question3" value="Albany">Albany<br>
+    <input type="radio" id="mc" name="question3" value="All beeny">All beeny<br>
+
+    <input id="button" type="button" value="I'm finished!" onclick="check()">
+  </form>
+  <div id="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img src="" alt="" id="pic" width="450px" height="350px">
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
